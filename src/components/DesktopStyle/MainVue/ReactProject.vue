@@ -9,7 +9,7 @@
         <div>
           <h3>{{ project.title }}</h3>
           <p>{{ project.description }}</p>
-          <a :href="project.link" target="_blank" class="btn btn-primary">준비중</a>
+          <a :href="project.link" target="_blank" class="btn btn-primary">제작중</a>
         </div>
       </swiper-slide>
     </swiper>
@@ -29,7 +29,7 @@
     data() {
       return {
         ProjectLinks: [
-          { title: 'React', description: '준비중', link: 'https://koreainsider.net/' },
+          { title: 'NoteRoom', description: 'NoteRoom', link: 'https://noteroom-5756f.web.app/' },
         ]
       }
     }
