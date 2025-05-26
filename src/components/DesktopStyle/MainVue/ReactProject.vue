@@ -9,7 +9,7 @@
         <div>
           <h3>{{ project.title }}</h3>
           <p>{{ project.description }}</p>
-          <a :href="project.link" target="_blank" class="btn btn-primary">제작중</a>
+          <a :href="project.link" target="_blank" class="btn btn-primary">보러가기</a>
         </div>
       </swiper-slide>
     </swiper>

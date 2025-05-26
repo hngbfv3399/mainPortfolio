@@ -29,7 +29,7 @@
     data() {
       return {
         ProjectLinks: [
-          { title: 'Flutter', description: '준비중', link: 'https://koreainsider.net/' },
+          { title: 'Flutter', description: '준비중', link: '' },
         ]
       }
     }

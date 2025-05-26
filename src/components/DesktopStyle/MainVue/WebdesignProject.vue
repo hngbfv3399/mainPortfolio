@@ -29,7 +29,7 @@
     data() {
       return {
         ProjectLinks: [
-          { title: '웹 디자인', description: '준비중', link: 'https://koreainsider.net/' },
+          { title: '웹 디자인', description: '준비중', link: '' },
         ]
       }
     }
